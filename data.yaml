@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 14
+names: ['Cement Mixer', 'Container Crane', 'Crane Truck', 'Dump Truck', 'Engineering Vehicle', 'Excavator', 'Front loader-Bulldozer', 'Ground Grader', 'Haul Truck', 'Mobile Crane', 'Reach Stacker', 'Scraper-Tractor', 'Straddle Carrier', 'Tower crane']
+
+roboflow:
+  workspace: university-college-london-pmvix
+  project: nrmm
+  version: 10
+  license: CC BY 4.0
+  url: https://app.roboflow.com/university-college-london-pmvix/nrmm/10
